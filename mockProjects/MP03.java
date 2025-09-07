@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 /* Registration flow
  * 	1. Navigate to a demo e-commerce site 
