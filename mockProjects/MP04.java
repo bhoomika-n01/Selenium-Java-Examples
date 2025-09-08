@@ -33,6 +33,8 @@ public class MP04 {
 		driver.findElement(By.id("email")).sendKeys("david.mailinator.com");
 		driver.findElement(By.id("subject")).sendKeys("why humiliate an unemployed person");
 		driver.findElement(By.xpath("//textarea[@id = 'comment']")).sendKeys("i dont know its frustrating to bear from each and everyone of the family members");
+		
+		//the "I am not robot" check box cannot be automated.
 		WebElement checkbox = driver.findElement(By.xpath("//span[@role=\"checkbox\"]"));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", checkbox);
